@@ -29,7 +29,13 @@
 
 	<div data-role="content">
 	
-	<p>The form should go here</p>
+	<form action="enter.php" method="post">
+	<label for="foo">Username:</label>
+	<input type="text" name="username" id="foo">
+	<label for="bar">Password:</label>
+	<input type="password" name="password" id="bar">
+        <input type="submit" value="Login">
+</form>
 		<div data-role="fieldcontain">
 			
 		</div>	
